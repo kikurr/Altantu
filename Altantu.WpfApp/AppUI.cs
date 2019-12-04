@@ -8,7 +8,7 @@ namespace Altantu.WpfApp
 
         private void LoadMainWindow()
         {
-            this.MainWindow = new MainWindow(this);
+            this.AltantuMainWindow = new MainWindow(this);
 
             //this.MainWindow.StartStopButtonClicked += this.MainWindow_StartStopButtonClicked;
             //this.MainWindow.ClearButtonClicked += this.MainWindow_ClearButtonClicked;
@@ -23,7 +23,7 @@ namespace Altantu.WpfApp
         #region Properties
 
         //private NotifyIcon TrayIcon { get; set; }
-        private MainWindow MainWindow { get; set; }
+        private MainWindow AltantuMainWindow { get; set; }
 
         #endregion
     }
