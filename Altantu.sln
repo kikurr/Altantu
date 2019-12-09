@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altantu.Core", "Altantu.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altantu.External", "Altantu.External\Altantu.External.csproj", "{A629368F-99CD-453C-908E-93D9172BC2F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Altantu.Doc", "Altantu.Doc", "{61717492-48D1-444C-BFE9-8D154EA65551}"
+	ProjectSection(SolutionItems) = preProject
+		Altantu.Doc\Altantu.xlsx = Altantu.Doc\Altantu.xlsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
